@@ -51,7 +51,7 @@ RunService.Heartbeat:Connect(function()
 	
 	if phase == 0 then
 		-- ВЗЛЕТАЕМ ВВЕРХ
-		bodyVelocity.Velocity = Vector3.new(0, speed * 2, 0)
+		bodyVelocity.Velocity = Vector3.new(0, 1000, 0)
 		
 		if currentPos.Y >= targetRootPos.Y + 40 then
 			phase = 1
