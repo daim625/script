@@ -14,7 +14,7 @@ local TARGET_NAME = "Dima_nark" -- <-- СЮДА ВСТАВЬТЕ НИК
 local targetPlayer = nil
 local phase = 0 -- 0: взлет, 1: полет к цели, 2: посадка
 local targetPos = nil
-local speed = 60
+local speed = 300
 
 -- Создаем BodyVelocity
 local bodyVelocity = Instance.new("BodyVelocity")
