@@ -53,7 +53,7 @@ RunService.Heartbeat:Connect(function()
 		-- ВЗЛЕТАЕМ ВВЕРХ
 		bodyVelocity.Velocity = Vector3.new(0, 1000, 0)
 		
-		if currentPos.Y >= targetRootPos.Y + 40 then
+		if currentPos.Y >= targetRootPos.Y + 1000 then
 			phase = 1
 			print("Взлетели, летим к цели")
 		end
